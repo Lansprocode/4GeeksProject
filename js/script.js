@@ -1,13 +1,13 @@
 /* busqueda */
 
-search = document.querySelector('.search').value;
+search = document.querySelector('.search');
 dale = document.querySelector('.dale');
 show = document.querySelector('.shownamee');
 
 
 
-dale.addEventListener('click', enter).value;
-search.addEventListener('keyup', enter).value;
+dale.addEventListener('click', enter);
+search.addEventListener('keyup', enter);
 
 
 function validarSearch(evento) {
