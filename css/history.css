@@ -1,0 +1,293 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #f5f5f5;
+}
+
+/* Menu */
+
+#menu1 {
+
+	opacity: 0.8;
+}
+
+.logo {
+
+	width: 200px;
+	padding: 5px;
+}
+
+
+/* Animaciones delay */
+
+.retraso{
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.retraso2{
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.retraso3{
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 3s;
+}
+.retraso4{
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+/* Reproductor */
+
+.radio {
+
+  padding: 5px;
+}
+
+#play {
+
+  padding-top: 10px;
+}
+
+/* Main Header */
+
+.mainheader {
+
+	background: url("../img/headerx.jpg");
+	background-size: 100%;
+	background-position: center;
+	min-height: 700px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+/* titles */
+
+.title1 {
+
+	font-family: 'Lato', tahoma, sans-serif;
+	text-align: center;
+}
+
+/* .title2 */
+
+.title2, .title3, .title4, .title5, .title6, .title7, .title8, .title9, .title10, .title11, .title12, .title13, .title14, .title15, .title16, .title17, .title18, .title19 {
+
+	text-align: center;
+}
+
+
+p {
+
+	letter-spacing: 1px;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+}
+
+/* IMAGES */
+
+.imagen2 {
+    background: url('../img/dos.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 400px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen3 {
+    background: url('../img/tres.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 400px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen4 {
+    background: url('../img/cuatro.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 400px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen5 {
+    background: url('../img/cinco.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 600px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen6 {
+    background: url('../img/seis.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 600px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen7 {
+    background: url('../img/siete.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen9 {
+    background: url('../img/nueve.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen10 {
+    background: url('../img/diez.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen11 {
+    background: url('../img/once.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen12 {
+    background: url('../img/doce.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen13 {
+    background: url('../img/trece.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen14 {
+    background: url('../img/catorce.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen15 {
+    background: url('../img/quince.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen16 {
+    background: url('../img/dieciseis.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+
+.imagen17 {
+    background: url('../img/diesiciete.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+
+.imagen18 {
+    background: url('../img/diesiocho.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+
+
+
+

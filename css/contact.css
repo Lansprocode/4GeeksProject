@@ -1,0 +1,270 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font: 400 15px/1.8 "Lato", sans-serif;
+	color: #777;
+}
+
+/* NavMenu */
+
+#menu1 {
+	opacity: 0.8;
+}
+
+.logo {
+
+	width: 200px;
+	padding: 5px;
+}
+
+/* Reproductor */
+
+.radio {
+
+	padding: 5px;
+}
+
+#play {
+
+	padding-top: 10px;
+}
+
+/* IMAGENES */
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+
+	position: relative;
+	opacity: 0.8;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("../img/jon.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("../img/Rob.jpg");
+  min-height: 500px;
+}
+
+.bgimg-3 {
+  background-image: url("../img/catelyn.jpg");
+  min-height: 500px;
+}
+
+.bgimg-4 {
+  background-image: url("../img/winterishere.jpg");
+  min-height: 700px;
+	background-position: center;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border, div.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Span 1 */
+
+.span1 {
+
+	background-color: white !important;
+	color: gray !important;
+	opacity: 0.7;
+	border-radius: 10px;
+}
+
+.span2{
+
+	background-color: #282e34;
+	text-align: center;
+	padding: 40px 70px;
+	opacity: 0.6;
+	
+}
+
+.span3	{
+
+	background-color: white !important;
+	color: gray !important;
+	opacity: 0.7;
+	border-radius: 10px;
+}
+
+.span4 {
+
+	background-color: white !important;
+	color: gray !important;
+	opacity: 0.7;
+	border-radius: 10px;
+
+}
+
+.WinterR {
+
+	margin-top: 150px;
+}
+
+/* Retrasos */
+
+.retraso{
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.retraso2{
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.retraso3{
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+.retraso4{
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.retraso5{
+  -webkit-animation-delay: 5s;
+  -moz-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.retraso6{
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+.retraso7{
+  -webkit-animation-delay: 7s;
+  -moz-animation-delay: 7s;
+  animation-delay: 7s;
+}
+
+
+
+
+/* Primer parrafo */
+div .stylebox1 {
+
+	color: #777;
+	background-color: white;
+	text-align: center;
+	padding: 50px 80px;
+	text-align: justify;
+}
+
+.stylebox1 p {
+
+	text-align: center;
+}
+
+.h3_1 {
+
+	text-align: center;
+}
+
+/* Segundo div con su imagen y parrafo */
+
+
+
+/* Despues de la imagen 2  */
+div .stylebox2 {
+	position: relative;
+}
+
+div .stylebox2again {
+
+	color: #ddd;
+	background-color: #282e34;
+	text-align: center;
+	padding: 20px 50px;
+	
+}
+
+.subscribe1{
+
+	height: 40px;
+	width: 160px;
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+	resize: none;
+	border-style: none;
+	color: gray;
+
+}
+
+button .btn {
+
+	padding: 10px 5px 10px;
+	margin: -3px 0 0 5px;
+}
+
+h4 {
+
+	padding: 10px;
+	font-size: 25px;
+}
+
+/* 3RA IMGAEN */
+
+
+/* stylebox3 */
+
+div .stylebox3 {
+
+	position: relative;
+}
+
+div .stylebox3again {
+
+	color: #2f4f4f;
+	background-color: #e6e6fa;
+	opacity: 0.7;
+	text-align: center;
+	padding: 30px 50px;
+	font-size: 17px;
+	
+}
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }
+}
+
+
